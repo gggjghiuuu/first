@@ -21,7 +21,7 @@
     margin-top: 28px;
     margin-bottom: 28px;
     object-fit: cover;
-    width: 204px;
+    width: 20%;
     height: 63px;
     border: 1px solid green;
 }
@@ -54,13 +54,13 @@
     color: white;
     font-weight: 400;
     font-family: Neue Machina;
-
+    width: 15%;
 }
 .header__navs1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 521px;
+    width: 45%;
     border-left: 1px solid white;
     color: white;
 }
@@ -69,7 +69,7 @@
     margin-top: 48px;
     margin-bottom: 48px;
     margin-left: 80px;
-    width: 32px;
+    width: 9%;
     height: 23px;
     color: white;
 }
@@ -190,7 +190,49 @@ border: 1px solid black;
  .page{
     width: 100%;
  }
- 
+ .header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+ }
+ .header__nav{
+    margin-bottom: 50px;
+ }
+ .header__navs1{
+    width: 40%;
+ }
+ .header__nav-but{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+ }
+ .header__title-block{
+    width: 90%;
+    margin-right: 100px;
+    margin-bottom: 100px;
+
+ }
+ .header__title{
+    font-size: 70px;
+    width: 90%;
+ }
+ .header__title-line{
+    width: 90%;
+    background: #2E2BD0;
+    height: 210px;
+ }
+ .header__but{
+    background: #2E2BD0;
+    width: 25%;
+    margin-right: 230px;
+    height: 200px;
+ }
+
  .industries{
     display: flex;
     flex-direction: column;
