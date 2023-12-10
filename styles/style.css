@@ -5,7 +5,7 @@
     flex-direction: column;
     align-content: space-between;
 }
-
+/* 
 .header{
     margin: auto;
     width: 100%;
@@ -94,7 +94,7 @@ color: white;
     color: var(--main-white, #FFF);
 font-size: 50px;
 font-weight: 800;
-line-height: 130%; /* 65px */
+line-height: 130%; /* 65px 
 }
 
 .header__title-line{
@@ -117,7 +117,7 @@ background: var(--main-blue, #2E2BD0);
     background: none;
     border: 1px solid white;
     color: white;
-}
+} */
 
 .main{
     margin: auto;
@@ -340,5 +340,24 @@ border: 1px solid black;
 .ind__bl__text {
     text-align: center;
     width: 100%;
+}
+.industries{
+    margin-bottom: -1382px;
+}
+.goals__string1{
+display: flex;
+flex-direction: column;
+}
+.goals__string2{
+    display: flex;
+    flex-direction: column;
+}
+.goals__string3{
+    display: flex;
+    flex-direction: column;
+}
+.goals__card{
+width: 100%;
+margin-bottom: 20px;
 }
 }
